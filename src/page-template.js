@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-function employeeCard(passedObject) { //consider destructuring
+function employeeCard(passedObject) {
     let variable
     ({name, id, email, officeNumber, github, school} = passedObject)
 
@@ -31,7 +31,6 @@ function howMany(passedObjectArray) {
 
     let ret = '' 
     console.log(passedObjectArray)
-    // console.log(passedObjectArray.length)
     for (i = 0; i < passedObjectArray.length; i++) {
         console.log(`${i}`)
         console.log(passedObjectArray[i])
@@ -80,7 +79,7 @@ module.exports = function (passedObjectArray) {
             }
             resolve({
                 ok: true,
-                message: 'File created!'
+                message: 'Done!'
             });
         });
     });

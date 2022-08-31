@@ -1,13 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid black; */
 }
 
 header {
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 0, 43, 0.8);
+    background-color: rgba(21, 56, 133, 0.8);
     color: white;
     font-size: xx-large;
     padding: 1.75rem;
